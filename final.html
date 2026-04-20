@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Forever Love</title>
+  <style>
+    body, html {
+      margin: 0; padding: 0; height: 100%;
+      font-family: 'Verdana', sans-serif;
+      background: linear-gradient(to bottom left, #ffb6c1, #ffc0cb, #ffe4e1);
+      display: flex; justify-content: center; align-items: center;
+      text-align: center; color: #8b0000;
+      overflow: hidden;
+    }
+    .container { max-width: 800px; padding: 30px; }
+    h1 { font-size: 2.5em; margin-bottom: 20px; }
+    p { font-size: 1.2em; margin-bottom: 20px; }
+    .illustration { font-size: 3em; margin-bottom: 20px; }
+
+    /* Animasi hati */
+    .heart {
+      position: absolute;
+      font-size: 2em;
+      color: red;
+      animation: float 6s infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(100vh) scale(0.5); opacity: 0; }
+      50% { opacity: 1; }
+      100% { transform: translateY(-10vh) scale(1.2); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="illustration">💖🌹✨💕</div>
+    <h1>My Love & Regrets</h1>
+    <p>
+      I regret the times I hurt you.<br>
+      I wish I could turn back time.<br>
+      I want to love you endlessly. 💞
+    </p>
+    <div class="illustration">❤️💐💘⭐</div>
+  </div>
+
+  <!-- Hati animasi -->
+  <div class="heart" style="left:20%; animation-delay:0s;">❤️</div>
+  <div class="heart" style="left:40%; animation-delay:2s;">💖</div>
+  <div class="heart" style="left:60%; animation-delay:4s;">💕</div>
+  <div class="heart" style="left:80%; animation-delay:1s;">💘</div>
+</body>
+</html>

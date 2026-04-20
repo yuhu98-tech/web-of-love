@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome Page</title>
+  <style>
+    body, html {
+      margin: 0; padding: 0; height: 100%;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom right, #ffc0cb, #ff6666, #ffe4e1);
+      display: flex; justify-content: center; align-items: center;
+      text-align: center; color: #b22222;
+    }
+    .container { max-width: 600px; }
+    h1 { font-size: 3em; margin-bottom: 20px; }
+    .illustration { font-size: 3em; margin-bottom: 20px; }
+    button {
+      background-color: #ff69b4; border: none; padding: 15px 30px;
+      font-size: 1.2em; color: white; border-radius: 30px; cursor: pointer;
+    }
+    button:hover { background-color: #ff1493; transform: scale(1.1); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="illustration">💖✨🌹💕</div>
+    <h1>Welcome my beloved girl</h1>
+    <button onclick="goToPage2()">Say Yes</button>
+  </div>
+  <script>
+    function goToPage2() {
+      window.location.href = "love.html";
+    }
+  </script>
+</body>
+</html>
